@@ -25,17 +25,17 @@ layers: 'geonode:wales_lidar_dsm_1m_hillshade_cog',
  marker.bindPopup("<b>Hello Swansea!</b>").openPopup();
 
   // Example sites
-  var marker = L.marker([52.075744 , -4.7382202]).addTo(map);
+  var marker1 = L.marker([52.075744 , -4.7382202]).addTo(map);
   marker.bindPopup("<b>Example</b>").openPopup();
 
-  var marker = L.marker([51.819996, -4.76665]).addTo(map);
+  var marker2 = L.marker([51.819996, -4.76665]).addTo(map);
   marker.bindPopup("<b>Example</b>").openPopup();
 
-  var marker = L.marker([51.831249, -4.800618]).addTo(map);
+  var marker3 = L.marker([51.831249, -4.800618]).addTo(map);
   marker.bindPopup("<b>Example</b>").openPopup();
 
 
-  var marker = L.marker([51.85926, -4.849777]).addTo(map);
+  var marker4 = L.marker([51.85926, -4.849777]).addTo(map);
   marker.bindPopup("<b>Example</b>").openPopup();
 
  // Function to show location map clicked
