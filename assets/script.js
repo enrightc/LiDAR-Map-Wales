@@ -20,3 +20,9 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
  // Marker at Swansea
  var marker = L.marker([51.62144, -3.943645]).addTo(map);
  marker.bindPopup("<b>Hello Swansea!</b>").openPopup();
+
+ function onMapClick(e) {
+    alert("You clicked the map at " + e.latlng);
+}
+
+map.on('click', onMapClick);
