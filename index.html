@@ -10,7 +10,13 @@
     <title>Swansea Map</title>
 </head>
 <body>
+
+    <label for="opacity-control">LiDAR Layer Opacity: </label>
+    <input type="range" id="opacity-control" min="0" max="1" step="0.1" value="1" style="width: 200px;">
+    
     <div id="mapid"></div> 
+
+
 
     <!-- Leaflet JS library -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -18,7 +24,8 @@
      crossorigin=""></script>
 
      <script src="assets/bing.js"></script>
-
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.11.0/proj4.js"></script>
+    
     
     <script src="assets/script.js"></script> 
 
